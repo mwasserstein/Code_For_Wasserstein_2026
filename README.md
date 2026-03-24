@@ -61,7 +61,7 @@ python Generate_MRR_Datasets.py --period FR
 python Generate_PARSIVEL_Datasets.py --period FR
 ```
 
-These scripts read raw observational data from the Wasatch Deployment archive and write processed files to `Data/MRR/` and `Data/PARSIVEL/`.
+These scripts read raw observational data from the data archive and write processed files to `Data/MRR/` and `Data/PARSIVEL/`.
 
 ---
 
