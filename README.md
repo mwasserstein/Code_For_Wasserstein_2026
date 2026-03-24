@@ -21,16 +21,23 @@ Analysis of Micro Rain Radar (MRR) and PARSIVEL disdrometer observations from tw
 
 **Authors:** Michael Wasserstein, Ashley Evans, Jim Steenburgh, Dave Kingsmill, Peter Veals
 
+**Data:** The datasets MRR and PARSIVEL datasets used for this code can be obtained from the University of Utah Research Data Repository:
+
+1. Alta Micro Rain Radar - https://hive.utah.edu/concern/datasets/nk322d41g
+2. Highland Micro Rain Radar - https://hive.utah.edu/concern/datasets/h989r329k
+3. Alta PARSIVEL - https://hive.utah.edu/concern/datasets/rb68xb93w
+4. Highland PARSIVEL - https://hive.utah.edu/concern/datasets/9306sz402
+
 ---
 
 ## Repository Structure
 
 ```
 .
-├── Data/                          # Input data
+├── Data/                          # Input data, must be processed by user
 │   ├── MRR/                       # Processed MRR NetCDF files by site and event type
 │   ├── PARSIVEL/                  # Processed PARSIVEL .npy arrays by event type
-│   └── *.csv                      # Collins Alta (CLN) precipitation event lists
+│   └── *.csv                      # Alta Collins precipitation event lists
 ├── Fig/                           # Output figures
 ├── MRR_functions.py               # Core MRR data ingest and plotting functions
 ├── Parsivel_inputs_hgh.py         # PARSIVEL configuration for Highland site
