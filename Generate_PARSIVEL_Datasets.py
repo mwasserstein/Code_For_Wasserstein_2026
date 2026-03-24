@@ -53,8 +53,8 @@ data_save_path = os.path.join(SCRIPT_DIR, 'Data', 'PARSIVEL') + os.sep
 # ---------------- END USER SPECIFIED VARIABLES --------------
 
 
-HOME = '/uufs/chpc.utah.edu/common/home'
-PARSIVEL_DIR = os.path.join(HOME, 'steenburgh-group12/peter/WasatchDeployment_2022_2024_fromLaptop')
+HOME = '/path/to/home/directory/'
+PARSIVEL_DIR = os.path.join(HOME, '/path/to/PARSIVEL/data/')
 
 site_symbol_dict = {'Highland': 'HGH'}
 
