@@ -16,9 +16,8 @@ import matplotlib.dates as mdates
 
 np.seterr(divide='ignore')  # suppress divide-by-zero warnings
 
-
-HOME = '/uufs/chpc.utah.edu/common/home'
-DATA_DIR = os.path.join(HOME, 'steenburgh-group12/peter/WasatchDeployment_2022_2024_fromLaptop')
+HOME = '/path/to/home/directory/'
+DATA_DIR = os.path.join(HOME, '/path/to/MRR/data/')
 
 variable_config = {
     'Ze': {
