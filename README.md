@@ -21,7 +21,7 @@ Analysis of Micro Rain Radar (MRR) and PARSIVEL disdrometer observations from tw
 
 **Authors:** Michael Wasserstein, Ashley Evans, Jim Steenburgh, Dave Kingsmill, Peter Veals
 
-**Data:** The datasets MRR and PARSIVEL datasets used for this code can be obtained from the University of Utah Research Data Repository:
+**Data:** The MRR and PARSIVEL datasets used for this code can be obtained from the University of Utah Research Data Repository:
 
 1. Alta Micro Rain Radar - https://hive.utah.edu/concern/datasets/nk322d41g
 2. Highland Micro Rain Radar - https://hive.utah.edu/concern/datasets/h989r329k
